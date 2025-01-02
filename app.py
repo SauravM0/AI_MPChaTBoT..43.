@@ -12,7 +12,7 @@ import io
 # Configure SSL and API
 ssl._create_default_https_context = ssl._create_unverified_context
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-genai.configure(api_key='AIzaSyCETXiprhVI5GEqBkFI6j_A2EIajuzAaFU')
+genai.configure(api_key='GEMINI_API_KEY')
 
 # Utility Functions
 def chatbot(input_text, context=None):
