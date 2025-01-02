@@ -1,4 +1,4 @@
-#🧠 AI Chatbot with Gemini API.
+"#🧠 AI Chatbot with Gemini API."
 Welcome to the AI Chatbot project built with the Gemini API and Streamlit! This chatbot allows you to interact with a powerful AI that can answer questions based on provided documents, historical conversations, and more.
 
   🌟 Features
