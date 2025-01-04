@@ -20,8 +20,8 @@ GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 ASSEMBLYAI_API_KEY = os.getenv('ASSEMBLYAI_API_KEY')
 
 # Configure API
-gen_ai.configure(api_key=GEMINI_API_KEY)
-model = gen_ai.GenerativeModel("gemini-pro")
+genai.configure(api_key=GEMINI_API_KEY)
+model = genai.GenerativeModel("gemini-pro")
 
 def read_file_content(uploaded_file):
     content = ""
