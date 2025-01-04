@@ -146,7 +146,7 @@ def make_chunks(audio_segment, chunk_length):
     return chunks
 
 def main():
-    st.title("AI Assistant")
+    st.title("AI MPChaTBoT 43")
 
     # Initialize session state
     if "conversation" not in st.session_state:
