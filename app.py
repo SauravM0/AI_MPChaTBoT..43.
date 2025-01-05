@@ -20,7 +20,7 @@ GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 ASSEMBLYAI_API_KEY = os.getenv('ASSEMBLYAI_API_KEY')
 
 # Configure API
-genai.configure(api_key='AIzaSyCETXiprhVI5GEqBkFI6j_A2EIajuzAaFU')
+genai.configure(api_key='Your gemini api')
 model = genai.GenerativeModel("gemini-pro")
 
 def read_file_content(uploaded_file):
@@ -67,7 +67,7 @@ def process_audio_file(audio_file):
     """Process audio files using AssemblyAI API."""
     try:
         # AssemblyAI API Key - Replace with your key from https://www.assemblyai.com/ (free tier available)
-        api_key = '3eb57a21d5a9434294e18fee5f952cd2'
+        api_key = 'Your assembly api'
         headers = {
             "authorization": api_key,
             "content-type": "application/json"
